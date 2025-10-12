@@ -13,7 +13,7 @@ function Github() {
                 <img src={users.avatar_url} alt="Hitesh Photo" width={150} />
             </div>
             <div className='githubPage hh'>
-                <h2>{users.name}</h2>
+                <h3>{users.name}</h3>
                 <p>{users.bio}</p>
             </div>
         </>
