@@ -13,7 +13,7 @@ function Display() {
       <div>
         Welcom {user.username}
       </div>
-      <p>Your password is {user.password}</p>
+      <p>Your password is: {user.password}</p>
     </>
   )
 }
