@@ -9,7 +9,7 @@ function ThemeBtn() {
         if (checkButton) {
             darkMode()
         } else {
-            lightMode()
+            lightMode() 
         }
     }
     return (
