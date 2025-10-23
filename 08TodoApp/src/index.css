@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(1, 3, 62, 0.639);
+}
+
+form input {
+    width: 500px;
+    height: 41px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0px 10px;
+    margin-top: 15px;
+}
+
+form button {
+    background-color: rgb(255, 183, 1);
+    color: black;
+    font-size: 16px;
+    padding: 11px 15px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container {
+    background-color: rgba(66, 2, 2, 0.418);
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+    border-radius: 4px;
+}
+
+.itemContainer {
+    background-color: rgba(6, 160, 132, 0.845);
+    width: 570px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.checkAndTdodInputes {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.checkAndTdodInputes #todoBox {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.itemContainer button {
+    padding: 2px 6px;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.checkAndTdodInputes.completed input[type="text"] {
+	text-decoration: line-through;
+}
