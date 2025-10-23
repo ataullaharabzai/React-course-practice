@@ -42,7 +42,7 @@ form button {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-top: 70px;
+    margin-top: 15px;
     border-radius: 4px;
 }
 
@@ -81,5 +81,121 @@ form button {
 }
 
 .checkAndTdodInputes.completed input[type="text"] {
-	text-decoration: line-through;
+    text-decoration: line-through;
+    color: rgba(234, 4, 4, 0.796);
+}
+
+/* Navbar styling */
+
+.navbar {
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff30;
+    backdrop-filter: blur(10px);
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 12px;
+    width: 100%;
+}
+
+.nav_items li {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.nav_items a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    padding: 10px 14px;
+    background-color: rgba(66, 2, 2, 0.453);
+    border-radius: 7px;
+}
+
+.nav_items a:hover {
+    background-color: rgba(66, 2, 2, 0.654);
+}
+
+.developr_container {
+    background-color: rgba(66, 2, 2, 0.418);
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    color: rgb(210, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.developr_container img {
+    border-radius: 50%;
+}
+
+.userInfo {
+    width: 50%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#userName {
+    position: absolute;
+    top: 80px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#userBio {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.loc_foll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 30px;
+}
+
+.about_container {
+    background-color: rgba(66, 2, 2, 0.418);
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    color: rgb(210, 209, 209);
+    margin-top: 15px;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 38px;
+}
+
+.about_container h1 {
+    overflow: hidden;
+    font-size: 2.5rem;
 }

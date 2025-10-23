@@ -8,7 +8,7 @@ import About from './Header/About'
 import Contact from './Header/Contact'
 import Github from './Header/Github'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([ 
   {
     path: '/',
     element: <Layout />,

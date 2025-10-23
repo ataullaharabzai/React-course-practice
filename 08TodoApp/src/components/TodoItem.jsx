@@ -16,7 +16,7 @@ function TodoItem({ todo }) {
     toggelComplete(todo.id)
   }
 
-  const todoDelet = () => {
+  const todoDelet = () => { 
     deleteTodo(todo.id)
   }
 
@@ -31,6 +31,7 @@ function TodoItem({ todo }) {
         <input id='todoBox' type="text"
           value={todoMsg}
           onChange={(e) => setTodoMsg(e.target.value)}
+          readOnly={!isTodoEditable}
         />
       </div>
       {/*edit, save button  */}
