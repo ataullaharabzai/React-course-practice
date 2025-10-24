@@ -112,17 +112,25 @@ form button {
 }
 
 .nav_items a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 8px 12px;
     padding: 10px 14px;
-    background-color: rgba(66, 2, 2, 0.453);
+    /* background-color: rgba(66, 2, 2, 0.453); */
+    border: 1.5px solid rgba(66, 2, 2, 0.453);
     border-radius: 7px;
 }
 
 .nav_items a:hover {
+    /* background-color: #001d3d; */
+    /* color: #fff; */
+    border-color: #001d3d;
+}
+
+.nav_items a.active {
     background-color: rgba(66, 2, 2, 0.654);
+    color: #fff;
 }
 
 .developr_container {
@@ -198,4 +206,23 @@ form button {
 .about_container h1 {
     overflow: hidden;
     font-size: 2.5rem;
+}
+
+.contact_container {
+    background-color: rgba(66, 2, 2, 0.418);
+    width: 60vw;
+    min-height: 60vh;
+    margin: auto;
+    color: rgb(210, 209, 209);
+    margin-top: 15px;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
